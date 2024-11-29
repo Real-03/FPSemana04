@@ -10,7 +10,7 @@ try:
     print(data)
 except:
   print("Ocorreu um erro!")
-
-print("Processo Concluído")
+finally:
+  print("Processo Concluído")
 
 
